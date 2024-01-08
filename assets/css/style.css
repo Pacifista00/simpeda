@@ -1,0 +1,188 @@
+body {
+    color: white;
+    font-family: "Ubuntu" !important;
+    
+}
+
+.navbar {
+    z-index: 5;
+}
+
+.navnav {
+    background-color: #F0EEED;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    color: #FF0032;
+}
+
+.navbar-brand :hover {
+    color: #FF0032 !important;
+}
+
+
+.nav-link {
+    color: black;
+    transition: .3s;
+}
+
+.tombol {
+    background-color: #FF0032;
+    border: 0px;
+    transition: .5s;
+}
+
+.jumbotron {
+    background: linear-gradient(60deg, black, #3D1766, #3D1766);
+    border-radius: 0;
+    font-family: 'Viga';
+}
+
+.jumbotron .container {
+    margin: 100px auto;
+}
+
+.jumbotron span {
+    font-weight: bold;
+}
+
+.contactform {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 576px) {
+    .colright img {
+        right: -120px !important;
+    }
+
+    .text-footer {
+        font-size: 12px;
+        padding: 10px !important;
+    }
+
+    .btn-footer {
+        font-size: small !important;
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .content .text-muted {
+        font-size: 14px !important;
+        margin-top: 0;
+    }
+
+    .title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .title h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero {
+        position: relative;
+    }
+
+    .colright img {
+        width: 500px;
+        position: absolute;
+        bottom: -70px;
+        right: 0;
+        opacity: 0.3;
+    }
+
+    .jumbotitle {
+        text-align: center;
+        margin: -50px auto !important;
+        width: 100%;
+        opacity: 0.9;
+        padding-bottom: 0 !important;
+    }
+
+    .jumbotitle p {
+        font-size: 18px !important;
+        margin: 0 auto !important;
+        margin-bottom: 50px !important;
+    }
+
+    .content .text-muted {
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+
+    .jumbotitle,
+    .tombol {
+        z-index: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        border-bottom: 1px solid rgba(250, 250, 250, 0.3);
+    }
+
+    .nav-link,
+    button {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+
+    .jumbotron {
+        margin-top: -75px;
+    }
+
+    .nav-link:hover {
+        color: #F0EEED;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #FF0032;
+        width: 50%;
+        margin: -12px auto;
+        padding-bottom: 10px;
+    }
+
+    .tombol:hover {
+        background-color: snow;
+        color: #FF0032 !important;
+        box-shadow: 0px 0px 6px 2px #FF0032 !important;
+    }
+
+    .tombol:active {
+        background-color: #FF0032 !important;
+        color: snow !important;
+        box-shadow: 0px 0px 6px 2px #FF0032;
+    }
+
+    .navnav {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .jumboimg img {
+        position: absolute;
+        height: 450px;
+        top: 90px;
+        right: 100px;
+    }
+
+    .fa-facebook,
+    .fa-instagram,
+    .fa-twitter {
+        color: #3D1766;
+        height: 20px;
+    }
+}
